@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Coffee Scale App</string>
+    <string name="enable_bt">Enable bluetooth</string>
+    <string name="disable_bt">Disable bluetooth</string>
+    <string name="scan_bt">Scan for devices</string>
+    <string name="meas_weight">Measure weight</string>
+    <string name="no_weight">No weight available</string>
+    <string name="start">Start getting data</string>
+    <string name="stop">Stop acquisition</string>
+</resources>
