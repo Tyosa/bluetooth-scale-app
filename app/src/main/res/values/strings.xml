@@ -7,4 +7,6 @@
     <string name="no_weight">No weight available</string>
     <string name="start">Start getting data</string>
     <string name="stop">Stop acquisition</string>
+    <string name="connect">"Connect "</string>
+    <string name="reset">Reset data</string>
 </resources>

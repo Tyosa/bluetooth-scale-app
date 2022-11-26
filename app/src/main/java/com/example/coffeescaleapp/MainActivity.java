@@ -132,7 +132,7 @@ public class MainActivity extends AppCompatActivity {
         String info = ((TextView) view).getText().toString();
         String address = info.substring(info.length() - 17);
         Toast.makeText(getApplicationContext(), info, Toast.LENGTH_SHORT).show();
-        Intent intent = new Intent(MainActivity.this, TestActivity.class);
+        Intent intent = new Intent(MainActivity.this, CommsActivity.class);
         intent.putExtra(EXTRA_ADDRESS, address);
         startActivity(intent);
     };

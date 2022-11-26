@@ -12,16 +12,22 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/start_button"
+            android:id="@+id/connect_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/connect" />
+
+        <Button
+            android:id="@+id/data_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/start" />
 
         <Button
-            android:id="@+id/stop_button"
+            android:id="@+id/reset_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/stop" />
+            android:text="@string/reset" />
 
         <TextView
             android:id="@+id/weight_text"
